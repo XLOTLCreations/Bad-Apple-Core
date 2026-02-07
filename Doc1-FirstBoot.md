@@ -1,4 +1,4 @@
-***IF YOU SKIPPED OVER 'ReadME' PLEASE READ FIRST FOR PROJECT INSIGHT***
+***IF YOU SKIPPED OVER 'README' PLEASE READ FIRST FOR PROJECT INSIGHT***
 
 Programmer Used:  Arduino Nano as ISP
 Interface:  4x tactile switch push buttons 
@@ -156,5 +156,6 @@ Bad Apple Core custom bootloader burn process DONE!
 
 Next, connect the 'Bad Apple Core' board using USB-C cable to your host PC (Arduino Nano as ISP burner role completed, keep it aside) and check Win+X 'Device Manager' the 'Bad Apple Core' board should enumerate as 'Arduino Leonardo'.
 This confirms all steps mentioned in this document to be successful and now we can run test sketches to verify connection integrity with all the peripherals onboard in the rare case of faulty/erroneous board assembly from the manufacturer or user mishandling scenario.
+
 
 
