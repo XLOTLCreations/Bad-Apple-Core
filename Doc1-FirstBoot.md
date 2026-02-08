@@ -12,9 +12,9 @@ Interface:  4x tactile switch push buttons;
 
 
 Notes: 
-A. ISP and ICSP are one and the same, ICSP is the physical header and ISP the protocol,
-B. ISP First Boot @1MHz ~10-15 Seconds, any more time elapsed might hint at (but not necessarily) a faulty behavior,
-C. In Device Manager 'Bad Apple Core' board will enumerate as 'Arduino Leonardo' once connected through USB post finishing of the steps in this Doc1 document.
+A. ISP and ICSP are one and the same, ICSP is the physical header and ISP the protocol, \
+B. ISP First Boot @1MHz ~10-15 Seconds, any more time elapsed might hint at (but not necessarily) a faulty behavior, \
+C. In Device Manager 'Bad Apple Core' board will enumerate as 'Arduino Leonardo' once connected through USB post finishing of the steps in this Doc1 document. \
 
 
 
@@ -155,6 +155,7 @@ Bad Apple Core custom bootloader burn process DONE!
 
 Next, connect the 'Bad Apple Core' board using USB-C cable to your host PC (Arduino Nano as ISP burner role completed, keep it aside) and check Win+X 'Device Manager' the 'Bad Apple Core' board should enumerate as 'Arduino Leonardo'.
 This confirms all steps mentioned in this document to be successful and now we can run test sketches to verify connection integrity with all the peripherals onboard in the rare case of faulty/erroneous board assembly from the manufacturer or user mishandling scenario.
+
 
 
 
