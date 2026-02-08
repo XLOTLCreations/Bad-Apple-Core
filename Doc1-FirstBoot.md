@@ -107,9 +107,9 @@ If you had the Arduino IDE open this is a good time to close all open tabs and r
 3.0 - Interface 'Arduino Nano' (ISP Master) and 'Bad Apple Core' (ISP Slave)
 3.1 - Disconnect Arduino NANO from host computer (NANO OFF/unpowered) before proceeding to the step3.2,
 
-3.2 - ***FAILING TO ADHERE TO FOLLOWING INSTRUCTIONS WILL LIKELY RESULT IN IRREPARABLE BOARD DAMAGE AND POTENTIALLY BRICK THE DEVICE***
-***!!! LEVEL SHIFT !!! THIS STEP IS PARAMOUNT***
-5V to 3.3V signal level shifting using 1K-2K resistor divider for SCK, MOSI and RST signals.
+3.2 - ***FAILING TO ADHERE TO FOLLOWING INSTRUCTIONS WILL LIKELY RESULT IN IRREPARABLE BOARD DAMAGE AND POTENTIALLY BRICK THE DEVICE***\
+***!!! LEVEL SHIFT !!! THIS STEP IS PARAMOUNT***\
+5V to 3.3V signal level shifting using 1K-2K resistor divider for SCK, MOSI and RST signals.\
 Directly wire MISO and GND **do not level shift**. (refer to respective Arduino model pinout diagram online) Referring to the provided wiring diagram by the name 'Level Shifting' in project files will help a ton here.
 
 3.3 - Once breadboarded the setup for the three required signals connect the Arduino NANO to host PC and select the appropriate COM port that enumerates with the Arduino model name. (not to confuse with point C in the notes section)
@@ -155,6 +155,7 @@ Bad Apple Core custom bootloader burn process DONE!
 
 Next, connect the 'Bad Apple Core' board using USB-C cable to your host PC (Arduino Nano as ISP burner role completed, keep it aside) and check Win+X 'Device Manager' the 'Bad Apple Core' board should enumerate as 'Arduino Leonardo'.
 This confirms all steps mentioned in this document to be successful and now we can run test sketches to verify connection integrity with all the peripherals onboard in the rare case of faulty/erroneous board assembly from the manufacturer or user mishandling scenario.
+
 
 
 
