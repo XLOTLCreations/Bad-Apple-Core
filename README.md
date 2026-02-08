@@ -11,15 +11,15 @@ Project Disclaimer and Overview
 
 
 🎯 Project Specifications:
-I am listing basic specifications for someone to decide here itself if they are interested in continuing further. Please note that project was designed with the intention of learning for new comers/beginners, do not @me for something the project was clearly not meant to achieve which is complexity and obscurity. Intended for kids learning in school, present it at your 'show and tell', tell me how it goes.
+I am listing basic specifications for someone to decide here itself if they are interested in continuing further. No soldering required. Please note that project was designed with the intention of learning for new comers/beginners, do not @me for something the project was clearly not meant to achieve which is complexity and obscurity. Intended for kids learning in school, present it at your 'show and tell', tell me how it goes.
 
-Connections: USB-C (Full-Speed), ICSP header (no-fit),
-Main Processor: Atmega32U4,
-Human Machine Interface: 4x tactile buttons for interaction (active LOW),
-Output: 12x9 Charlie Plexed LED Matrix driven using IS31FL3731-QF over I2C,
-Storage: W25Q128JVP 16MByte QSPI NOR Flash (video frames, game assets),
-System Working Voltage: Vsys=3.3V,
-System Clock: 8MHz,
+Connections: USB-C (Full-Speed), ICSP header (no-fit),\
+Main Processor: Atmega32U4,\
+Human Machine Interface: 4x tactile buttons for interaction (active LOW),\
+Output: 12x9 Charlie Plexed LED Matrix driven using IS31FL3731-QF over I2C,\
+Storage: W25Q128JVP 16MByte QSPI NOR Flash (video frames, game assets),\
+System Working Voltage: Vsys=3.3V,\
+System Clock: 8MHz,\
 (over-clocking/over-volting not advised)
 
 
